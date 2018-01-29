@@ -31,7 +31,9 @@ var Movies = Backbone.Collection.extend({
     console.log('sorting.....');
     // your code here
     // set comparator equal to field
+
     this.comparator = field;
+
     //call the sort function on the collection
     console.log('this before sort', this);
     this.sort();
